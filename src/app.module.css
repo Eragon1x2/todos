@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(45, 45, 45);
+}
+@media(max-width: 768.9px) {
+    body {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .inputs  input {
+        width: 100%;
+    }
+}
+.app h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px
+
+}
+.inputs_div {
+    background-color: rgb(0, 255, 98);
+    padding: 20px;
+    border-radius: 12px
+}
+.inputs form {
+    display: flex;
+   flex-direction: column;
+}
+.inputs input {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.inputs form button {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
